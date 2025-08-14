@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { AmountDisplay } from './AmountDisplay';
+import { CategoryKey } from './CategoryKey';
 import amountsData from '../data/amounts.json';
 
 interface AmountItem {
@@ -13,17 +14,30 @@ interface AmountItem {
 export function AmountsList() {
   const [amounts, setAmounts] = useState<AmountItem[]>([]);
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
+  const [visibleCategories, setVisibleCategories] = useState<Set<number>>(new Set([1, 2, 3, 4, 5]));
 
   useEffect(() => {
     setAmounts(amountsData);
   }, []);
 
-  const sortedAmounts = [...amounts].sort((a, b) => {
-    return sortOrder === 'desc' ? b.amount - a.amount : a.amount - b.amount;
-  });
+  const filteredAndSortedAmounts = [...amounts]
+    .filter(item => visibleCategories.has(item.category))
+    .sort((a, b) => {
+      return sortOrder === 'desc' ? b.amount - a.amount : a.amount - b.amount;
+    });
 
   const toggleSort = () => {
     setSortOrder(sortOrder === 'desc' ? 'asc' : 'desc');
+  };
+
+  const toggleCategory = (categoryId: number) => {
+    const newVisibleCategories = new Set(visibleCategories);
+    if (newVisibleCategories.has(categoryId)) {
+      newVisibleCategories.delete(categoryId);
+    } else {
+      newVisibleCategories.add(categoryId);
+    }
+    setVisibleCategories(newVisibleCategories);
   };
 
   return (
@@ -42,17 +56,23 @@ export function AmountsList() {
           </button>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center p-6">
-        {sortedAmounts.map((item) => (
-          <AmountDisplay
-            key={item.title}
-            amount={item.amount}
-            title={item.title}
-            description={item.description}
-            sourceUrl={item.sourceUrl}
-            category={item.category}
-          />
-        ))}
+      <div className="p-6">
+        <CategoryKey 
+          visibleCategories={visibleCategories}
+          onToggleCategory={toggleCategory}
+        />
+        <div className="flex flex-col justify-center items-center">
+          {filteredAndSortedAmounts.map((item) => (
+            <AmountDisplay
+              key={item.title}
+              amount={item.amount}
+              title={item.title}
+              description={item.description}
+              sourceUrl={item.sourceUrl}
+              category={item.category}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

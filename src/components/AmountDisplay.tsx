@@ -7,12 +7,11 @@ interface AmountDisplayProps {
 }
 
 const categoryMap: Record<number, string> = {
-  1: "Housing & Homelessness Programs",
-  2: "Major Policy Proposals", 
+  1: "Major Policy Proposals",
+  2: "Individual Wealth & Income", 
   3: "Government Budgets & Spending",
-  4: "Income & Economic Statistics",
-  5: "Individual Wealth",
-  6: "Corporate Valuations"
+  4: "Items & Services",
+  5: "Business",
 };
 
 export function AmountDisplay({ amount, title, description, sourceUrl, category }: AmountDisplayProps) {
@@ -39,12 +38,11 @@ export function AmountDisplay({ amount, title, description, sourceUrl, category 
 
   const getCategoryColor = (categoryNum: number) => {
     const colors: Record<number, string> = {
-      1: "text-emerald", // Housing & Homelessness Programs
-      2: "text-emerald",       // Major Policy Proposals
+      1: "text-emerald", // Major Policy Proposals
+      2: "text-midnight-green", // Individual Wealth & Income
       3: "text-bright-pink",    // Government Budgets & Spending
-      4: "text-midnight-green", // Income & Economic Statistics
-      5: "text-sunglow",        // Individual Wealth
-      6: "text-blue-ncs"        // Corporate Valuations
+      4: "text-warm-autumn-glow",        // Items & Services
+      5: "text-blue-ncs"        // Business
     };
     return colors[categoryNum] || "text-gray-700";
   };
@@ -68,7 +66,7 @@ export function AmountDisplay({ amount, title, description, sourceUrl, category 
         >
           {title}
         </a>
-        <p className="text-sm text-gray-600 mt-1">{description}</p>
+        <p className="text-xs text-gray-600 mt-1">{description}</p>
       </div>
     </div>
   );
