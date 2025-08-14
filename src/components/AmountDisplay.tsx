@@ -42,19 +42,19 @@ export function AmountDisplay({ amount, title, description, sourceUrl, category 
   const { whole, decimal } = formatAmount(amount);
 
   return (
-    <div className="flex items-baseline justify-center py-1" style={{ width: '100%' }}>
-      <div className={`flex items-baseline justify-end font-mono text-2xl font-bold mr-4 w-1/2 ${getCategoryColor(category)}`}>
+    <div className="flex flex-col md:flex-row items-baseline justify-center py-1" style={{ width: '100%' }}>
+      <div className={`flex items-baseline justify-end font-mono text-2xl font-bold mr-4 md:w-1/2 ${getCategoryColor(category)}`}>
         <span>$</span>
         <span className="text-right" style={{ minWidth: '120px' }}>{whole}</span>
         <span>.</span>
         <span className="text-left" style={{ width: '120px' }}>{decimal}</span>
       </div>
-      <div className="ml-4 w-1/2">
+      <div className="ml-4 w-full md:w-1/2 text-right md:text-left">
         <a 
           href={sourceUrl} 
           target="_blank" 
           rel="noopener noreferrer"
-          className="font-semibold text-m text-gray-800  hover:underline decoration-dotted hover:text-gray-600 transition-colors"
+          className="font-semibold text-xs md:text-base text-gray-800  hover:underline decoration-dotted hover:text-gray-600 transition-colors"
         >
           {title}
         </a>

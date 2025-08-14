@@ -43,10 +43,10 @@ export function AmountsList() {
   return (
     <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg">
       <div className="p-6 border-b border-gray-200">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold text-gray-800">In Billions</h1>
-            <p className="text-gray-600 mt-1">Wealth, spending, and deals measured in billions of dollars</p>
+            <p className="text-gray-600 mt-1">Wealth, spending, and costs measured in billions of dollars</p>
           </div>
           <button
             onClick={toggleSort}
