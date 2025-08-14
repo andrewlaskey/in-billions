@@ -35,6 +35,20 @@
     "category": 3
   },
   {
+    "title": "👮‍♂️ ICE Budget in \"Big Beautiful Bill\"",
+    "description": "Newly approved and passed annual budget for ICE passed in 2025",
+    "sourceUrl": "https://www.the-independent.com/news/world/americas/us-politics/ice-funding-world-militaries-b2790466.html",
+    "amount": 27.7,
+    "category": 3
+  },
+  {
+    "title": "🏗️ Money for completing Mexico Border Wall",
+    "description": "Funding approved for completing the border wall in the One Big Beautiful Bill Act",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mexico%E2%80%93United_States_border_wall",
+    "amount": 46.5,
+    "category": 3
+  },
+  {
     "title": "🧑‍🧑‍🧒‍🧒 US Median Household Income",
     "description": "Individual household median annual income",
     "sourceUrl": "https://www.census.gov/library/publications/2024/demo/p60-282.html",
