@@ -1,0 +1,226 @@
+[
+  {
+    "title": "Housing All Homeless (Conservative Estimate)",
+    "description": "Annual cost to house current sheltered homeless population",
+    "sourceUrl": "https://endhomelessness.org/",
+    "amount": 9.6,
+    "category": 1
+  },
+  {
+    "title": "Housing All Homeless (Comprehensive)",
+    "description": "Annual cost for comprehensive housing voucher program",
+    "sourceUrl": "https://www.rand.org/",
+    "amount": 59,
+    "category": 1
+  },
+  {
+    "title": "Medicare for All (Bernie Sanders Plan)",
+    "description": "Annual gross federal cost for single-payer healthcare",
+    "sourceUrl": "https://www.crfb.org/papers/choices-financing-medicare-all",
+    "amount": 3000,
+    "category": 2
+  },
+  {
+    "title": "Medicare for All (Elizabeth Warren Plan)", 
+    "description": "Annual new federal spending for healthcare plan",
+    "sourceUrl": "https://www.crfb.org/papers/choices-financing-medicare-all",
+    "amount": 2050,
+    "category": 2
+  },
+  {
+    "title": "ICE Annual Budget FY 2025",
+    "description": "Immigration and Customs Enforcement operations budget",
+    "sourceUrl": "https://usafacts.org/explainers/what-does-the-us-government-do/subagency/us-immigration-and-customs-enforcement/",
+    "amount": 10.42,
+    "category": 3
+  },
+  {
+    "title": "US Median Household Income",
+    "description": "Individual household median annual income",
+    "sourceUrl": "https://www.census.gov/library/publications/2024/demo/p60-282.html",
+    "amount": 0.0000806,
+    "category": 4
+  },
+  {
+    "title": "George Clooney Net Worth",
+    "description": "Actor and businessman estimated wealth",
+    "sourceUrl": "https://www.celebritynetworth.com/richest-celebrities/actors/george-clooney-net-worth/",
+    "amount": 0.5,
+    "category": 5
+  },
+  {
+    "title": "US Defense Budget FY 2024",
+    "description": "Department of Defense annual appropriations",
+    "sourceUrl": "https://usafacts.org/articles/how-much-does-the-us-spend-on-the-military/",
+    "amount": 841.4,
+    "category": 3
+  },
+  {
+    "title": "NASA Budget FY 2024",
+    "description": "National Aeronautics and Space Administration annual budget",
+    "sourceUrl": "https://www.planetary.org/space-policy/nasas-fy-2024-budget",
+    "amount": 25,
+    "category": 3
+  },
+  {
+    "title": "Infrastructure Investment Act (Annual)",
+    "description": "Annual spending from 5-year infrastructure bill",
+    "sourceUrl": "https://www.npr.org/2021/11/05/1050012853/the-house-has-passed-the-1-trillion-infrastructure-plan-sending-it-to-bidens-des",
+    "amount": 110,
+    "category": 2
+  },
+  {
+    "title": "Nvidia Market Cap",
+    "description": "Technology company market valuation",
+    "sourceUrl": "https://finance.yahoo.com/",
+    "amount": 4160,
+    "category": 6
+  },
+  {
+    "title": "Apple Market Cap",
+    "description": "Technology company market valuation",
+    "sourceUrl": "https://finance.yahoo.com/",
+    "amount": 3470,
+    "category": 6
+  },
+  {
+    "title": "Microsoft Market Cap",
+    "description": "Technology company market valuation", 
+    "sourceUrl": "https://finance.yahoo.com/",
+    "amount": 3370,
+    "category": 6
+  },
+  {
+    "title": "Student Debt Forgiveness (Biden Plan)",
+    "description": "One-time cost of blocked student loan forgiveness",
+    "sourceUrl": "https://budgetmodel.wharton.upenn.edu/",
+    "amount": 519,
+    "category": 2
+  },
+  {
+    "title": "US Foreign Aid Budget",
+    "description": "Annual international assistance spending",
+    "sourceUrl": "https://www.pewresearch.org/",
+    "amount": 71.9,
+    "category": 3
+  },
+  {
+    "title": "Federal Homeless Assistance",
+    "description": "Current annual federal spending on homelessness",
+    "sourceUrl": "https://endhomelessness.org/",
+    "amount": 5.4,
+    "category": 3
+  },
+  {
+    "title": "US Incarceration Costs",
+    "description": "Annual cost of federal, state, and local prison systems",
+    "sourceUrl": "https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/jeeus17.pdf",
+    "amount": 89.2,
+    "category": 3
+  },
+  {
+    "title": "US Policing Costs",
+    "description": "Annual spending on police departments nationwide",
+    "sourceUrl": "https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/jeeus17.pdf",
+    "amount": 149.0,
+    "category": 3
+  },
+  {
+    "title": "Bill Gates Net Worth",
+    "description": "Microsoft co-founder estimated wealth",
+    "sourceUrl": "https://www.bloomberg.com/billionaires/",
+    "amount": 123,
+    "category": 5
+  },
+  {
+    "title": "Elon Musk Net Worth",
+    "description": "Tesla and SpaceX CEO estimated wealth",
+    "sourceUrl": "https://www.bloomberg.com/billionaires/",
+    "amount": 396,
+    "category": 5
+  },
+  {
+    "title": "Jeff Bezos Net Worth",
+    "description": "Amazon founder estimated wealth",
+    "sourceUrl": "https://www.bloomberg.com/billionaires/",
+    "amount": 243,
+    "category": 5
+  },
+  {
+    "title": "Warren Buffett Net Worth",
+    "description": "Berkshire Hathaway CEO estimated wealth",
+    "sourceUrl": "https://www.bloomberg.com/billionaires/",
+    "amount": 141,
+    "category": 5
+  },
+  {
+    "title": "Average US Home Price",
+    "description": "Median existing home price nationally",
+    "sourceUrl": "https://www.bankrate.com/real-estate/existing-home-sales/",
+    "amount": 0.000435,
+    "category": 4
+  },
+  {
+    "title": "China Defense Budget",
+    "description": "Annual military spending budget",
+    "sourceUrl": "https://www.sipri.org/sites/default/files/2025-04/2504_fs_milex_2024.pdf",
+    "amount": 314,
+    "category": 3
+  },
+  {
+    "title": "Total US Federal Budget",
+    "description": "Complete federal government spending all programs",
+    "sourceUrl": "https://www.cbo.gov/publication/60843/html",
+    "amount": 6752,
+    "category": 3
+  },
+  {
+    "title": "IRS Tax Revenue Collection",
+    "description": "Annual federal tax revenue collected",
+    "sourceUrl": "https://www.irs.gov/newsroom/irs-releases-fiscal-year-2024-data-book-describing-agencys-activities",
+    "amount": 5100,
+    "category": 3
+  },
+  {
+    "title": "Jason Momoa Net Worth",
+    "description": "Actor and producer estimated wealth",
+    "sourceUrl": "https://www.celebritynetworth.com/richest-celebrities/actors/jason-momoa-net-worth/",
+    "amount": 0.044,
+    "category": 5
+  },
+  {
+    "title": "Average LA Home Price",
+    "description": "Median home price in Los Angeles area",
+    "sourceUrl": "https://www.zillow.com/home-values/12447/los-angeles-ca/",
+    "amount": 0.00095,
+    "category": 4
+  },
+  {
+    "title": "40ft Luxury Yacht",
+    "description": "Example cost of a high-end yacht",
+    "sourceUrl": "https://www.boatinternational.com/yachts-for-sale/homecoming-horizon-2010",
+    "amount": 0.00749,
+    "category": 4
+  },
+  {
+    "title": "Scarlett Johansson Net Worth",
+    "description": "Actress and producer estimated wealth",
+    "sourceUrl": "https://www.hellomagazine.com/film/843484/scarlett-johansson-net-worth-highest-grossing-star-revealed/",
+    "amount": 0.165,
+    "category": 5
+  },
+  {
+    "title": "NY sent to federal government vs received",
+    "description": "Difference between New York's federal tax contributions vs federal spending",
+    "sourceUrl": "https://usafacts.org/articles/which-states-contribute-the-most-and-least-to-federal-revenue/",
+    "amount": 89,
+    "category": 3
+  },
+  {
+    "title": "Virgina received vs sent to federal government",
+    "description": "Virgina has the largest gap between what they receive from the federal government vs what they send in taxes",
+    "sourceUrl": "https://usafacts.org/articles/which-states-contribute-the-most-and-least-to-federal-revenue/",
+    "amount": 79,
+    "category": 3
+  }
+]
