@@ -81,7 +81,7 @@
     "description": "Annual spending from 5-year infrastructure bill",
     "sourceUrl": "https://www.npr.org/2021/11/05/1050012853/the-house-has-passed-the-1-trillion-infrastructure-plan-sending-it-to-bidens-des",
     "amount": 110,
-    "category": 1
+    "category": 3
   },
   {
     "title": "📈 Nvidia Market Cap",
@@ -340,6 +340,27 @@
     "description": "Federal, state, and local government spending on highways.",
     "sourceUrl": "https://www.cbo.gov/publication/60874",
     "amount": 249,
+    "category": 3
+  },
+  {
+    "title": "💸 Total US household debt",
+    "description": "",
+    "sourceUrl": "https://www.newyorkfed.org/microeconomics/hhdc",
+    "amount": 18390,
+    "category": 2
+  },
+  {
+    "title": "💸 Cost of global tax havens",
+    "description": "",
+    "sourceUrl": "https://www.imf.org/en/Publications/fandd/issues/2019/09/tackling-global-tax-havens-shaxon",
+    "amount": 600,
+    "category": 3
+  },
+  {
+    "title": "🛒 SNAP FY 2024",
+    "description": "Supplemental Nutrition Assistance Program annual budget",
+    "sourceUrl": "https://usafacts.org/answers/how-much-does-the-federal-government-spend-on-snap-every-year/country/united-states/",
+    "amount": 100.3,
     "category": 3
   }
 ]
