@@ -6,14 +6,6 @@ interface AmountDisplayProps {
   category: number;
 }
 
-const categoryMap: Record<number, string> = {
-  1: "Major Policy Proposals",
-  2: "Individual Wealth & Income", 
-  3: "Government Budgets & Spending",
-  4: "Items & Services",
-  5: "Business",
-};
-
 export function AmountDisplay({ amount, title, description, sourceUrl, category }: AmountDisplayProps) {
   const formatAmount = (value: number) => {
     let formatted: string;
