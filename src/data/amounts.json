@@ -299,5 +299,47 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/California_High-Speed_Rail#:~:text=Construction%20of%20the%20IOS%20as,through%20partnership%20with%20private%20capital.",
     "amount": 130,
     "category": 3
+  },
+  {
+    "title": "🛢️ Penalties to BP for Deepwater Horizon Spill",
+    "description": "Cleanup costs, charges, and penalties as of 2018 by BP for the 2010 oil spill",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill",
+    "amount": 65,
+    "category": 5
+  },
+  {
+    "title": "🛢️ Global subsidies for fossil fuels (explicit)",
+    "description": "Total global subsidies for fossil fuels in 2022",
+    "sourceUrl": "https://ourworldindata.org/how-much-subsidies-fossil-fuels",
+    "amount": 1500,
+    "category": 3
+  },
+  {
+    "title": "🛢️ Global fossil fuel subsidies (implicit)",
+    "description": "Estimated implicit subsidies for fossil fuels in 2022",
+    "sourceUrl": "https://ourworldindata.org/how-much-subsidies-fossil-fuels",
+    "amount": 7000,
+    "category": 3
+  },
+  {
+    "title": "🛰️ Cost of James Webb Space Telescope",
+    "description": "Total cost of the James Webb Space Telescope project",
+    "sourceUrl": "https://science.utah.edu/news/james-webb-space-telescope/",
+    "amount": 10,
+    "category": 3
+  },
+  {
+    "title": "🚊 US public spending trains FY 2023",
+    "description": "Federal, state, and local government spending on mass transit and rail transportation.",
+    "sourceUrl": "https://www.cbo.gov/publication/60874",
+    "amount": 99,
+    "category": 3
+  },
+  {
+    "title": "🚗 US public spending highways FY 2023",
+    "description": "Federal, state, and local government spending on highways.",
+    "sourceUrl": "https://www.cbo.gov/publication/60874",
+    "amount": 249,
+    "category": 3
   }
 ]
