@@ -1,69 +1,55 @@
-# React + TypeScript + Vite
+# In Billions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that displays various dollar amounts (wealth, government spending, policy proposals) in billions for easy comparison. All amounts are decimal-aligned to make it simple to compare vastly different scales.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📊 **Decimal-aligned display** - All amounts align on the decimal point for easy visual comparison
+- 🎨 **Category-based color coding** - Different colors for different types of amounts
+- 🔗 **Source links** - Each item links to its data source
+- 📈 **Sortable** - Toggle between high-to-low and low-to-high sorting
+- 📱 **Responsive design** - Clean Tailwind CSS styling
 
-## Expanding the ESLint configuration
+## Categories
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+1. **Housing & Homelessness Programs** - Solutions to homelessness
+2. **Major Policy Proposals** - Large-scale policy initiatives  
+3. **Government Budgets & Spending** - Federal and state spending
+4. **Income & Economic Statistics** - Household and economic data
+5. **Individual Wealth** - Net worth of public figures
+6. **Corporate Valuations** - Market caps and company values
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **React** with TypeScript
+- **Vite** for fast development and building
+- **Tailwind CSS** for styling
+- **Custom color palette** for category distinction
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Getting Started
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/[your-username]/in-billions.git
+   cd in-billions
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser to `http://localhost:5173`
+
+## Data Sources
+
+All amounts include links to their original data sources for verification and further reading.
+
+## Contributing
+
+Feel free to submit issues or pull requests with additional amounts to include or improvements to the visualization.
