@@ -1,16 +1,9 @@
 [
   {
-    "title": "🏠 Housing All Homeless (Conservative Estimate)",
+    "title": "🏠 Housing All Homeless",
     "description": "Annual cost to house current sheltered homeless population",
-    "sourceUrl": "https://endhomelessness.org/",
+    "sourceUrl": "https://endhomelessness.org/resources/research-and-analysis/how-much-would-it-cost-to-provide-housing-first-to-all-households-staying-in-homeless-shelters/",
     "amount": 9.6,
-    "category": 1
-  },
-  {
-    "title": "🏠 Housing All Homeless (Comprehensive)",
-    "description": "Annual cost for comprehensive housing voucher program",
-    "sourceUrl": "https://www.rand.org/",
-    "amount": 59,
     "category": 1
   },
   {
@@ -112,10 +105,10 @@
     "category": 1
   },
   {
-    "title": "🇺🇸 US Foreign Aid Budget",
+    "title": "🇺🇸 US Foreign Aid FY 2023",
     "description": "Annual international assistance spending",
-    "sourceUrl": "https://www.pewresearch.org/",
-    "amount": 71.9,
+    "sourceUrl": "https://usafacts.org/answers/how-much-foreign-aid-does-the-us-provide/country/united-states/",
+    "amount": 99.8,
     "category": 3
   },
   {
@@ -362,5 +355,54 @@
     "sourceUrl": "https://usafacts.org/answers/how-much-does-the-federal-government-spend-on-snap-every-year/country/united-states/",
     "amount": 100.3,
     "category": 3
+  },
+  {
+    "title": "💰 UBI of $1000/month every adult in US",
+    "description": "Annual cost of universal basic income for all US adults",
+    "sourceUrl": "https://www.ubicenter.org/what-is-ubi/why-not-ubi/",
+    "amount": 3100,
+    "category": 1
+  },
+  {
+    "title": "📬 US Postal Service",
+    "description": "Annual budget for the United States Postal Service",
+    "sourceUrl": "https://usafacts.org/government-spending/",
+    "amount": 3.97,
+    "category": 3
+  },
+  {
+    "title": "🏦 2008 Bank Bailout (TARP)",
+    "description": "Total cost of Troubled Asset Relief Program",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Emergency_Economic_Stabilization_Act_of_2008",
+    "amount": 700,
+    "category": 3
+  },
+  {
+    "title": "📚 Harvard University's endowment",
+    "description": "Total value of Harvard's endowment fund",
+    "sourceUrl": "https://www.harvard.edu/about/endowment/",
+    "amount": 53.2,
+    "category": 5
+  },
+  {
+    "title": "📚 Public school funding",
+    "description": "Total annual funding for K-12 public schools in the US from all sources",
+    "sourceUrl": "https://usafacts.org/answers/how-are-public-schools-in-the-us-funded/country/united-states/",
+    "amount": 909,
+    "category": 3
+  },
+  {
+    "title": "🧑‍🎓 Average cost of college (private)",
+    "description": "Average total cost of attending a private 4-year college in the US",
+    "sourceUrl": "https://www.usnews.com/education/best-colleges/paying-for-college/articles/paying-for-college-infographic",
+    "amount": 0.000174,
+    "category": 4
+  },
+  {
+    "title": "🧑‍🎓 Average cost of college (public)",
+    "description": "Average total cost of attending a public 4-year college in the US",
+    "sourceUrl": "https://www.usnews.com/education/best-colleges/paying-for-college/articles/paying-for-college-infographic",
+    "amount": 0.000044,
+    "category": 4
   }
 ]
