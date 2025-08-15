@@ -404,5 +404,12 @@
     "sourceUrl": "https://www.usnews.com/education/best-colleges/paying-for-college/articles/paying-for-college-infographic",
     "amount": 0.000044,
     "category": 4
+  },
+  {
+    "title": "💩 Trump family profits from presidency",
+    "description": "Estimated profits from Trump family businesses during presidency",
+    "sourceUrl": "https://www.newyorker.com/magazine/2025/08/18/the-number",
+    "amount": 3.4,
+    "category": 2
   }
 ]
